@@ -1,2 +1,0 @@
-# gandcrab-rigek
-Miscellaneous files
